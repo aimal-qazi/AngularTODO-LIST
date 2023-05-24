@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style: none;
+}
+.container {
+  max-width: 1200px;
+  margin: 20px auto 20px;
+  text-align: center;
+}
+.container .todo {
+  margin-top: 50px;
+}
+.input {
+  display: flex;
+  justify-content: space-between;
+}
+.input input {
+  padding: 10px 0 10px 10px;
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 10px 0 0 10px;
+  outline: 0;
+  font-size: 17px;
+}
+.input button {
+  padding: 0 50px;
+  background-color: lightseagreen;
+  color: #fff;
+  font-weight: 600;
+  border: 0;
+  cursor: pointer;
+  outline: 0;
+  border-radius: 0 10px 10px 0;
+}
+.todos {
+  margin-top: 40px;
+}
+.todos ul li {
+  display: flex;
+  align-items: flex-start;
+  padding: 0 30px;
+}
+.todos ul li {
+  margin: 25px 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+.nextOne {
+  flex: 1;
+  border-top: 1px solid #444;
+  border-bottom: 1px solid #444;
+  font-size: 17px;
+  outline: 0;
+}
+.todos ul li span {
+  flex: 1;
+  margin-right: 20px;
+  margin-left: 10px;
+  text-align: justify;
+  font-size: 17px;
+}
+.todos ul li .btns {
+  display: flex;
+  gap: 0.5rem;
+}
+.todos ul li button {
+  background-color: lightseagreen;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.completed-text {
+  text-decoration: line-through;
+  color: #444;
+}
+.check {
+  padding: 10px 20px;
+  margin-right: 10px;
+}
